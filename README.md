@@ -67,13 +67,13 @@ apt update && apt install -y telnet && telnet 38.101.215.13 30111
 If it connects and then disconnectes , means we are good to go
 
 ```bash
-apt update && apt install -y curl && \
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash && \
-\. "$HOME/.nvm/nvm.sh" && \
-nvm install 22 && \
-node -v && \
-nvm current && \
-corepack enable yarn && \
+apt install curl -y
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 22
+node -v
+nvm current
+corepack enable yarn
 yarn -v
 ```
 
