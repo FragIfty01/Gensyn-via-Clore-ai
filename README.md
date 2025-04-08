@@ -9,7 +9,7 @@
 | **GPU**                 | NVIDIA RTX 3090 / 4090                      |
 | **RAM**                 | 32 GB                                       |
 | **Internet Speed**      | Download / Upload > 100 Mbps                |
-| **Server Region**       | Avoid Russian servers for best performance  |
+| **Server Region**       | Avoid Russian servers  |
 
 ---
 
