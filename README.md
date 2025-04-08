@@ -124,6 +124,12 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
+## You will be asked to login . 
+
+Go back to your order and click the http link. Cut extra characters after /.  Check video 👇
+
+https://github.com/user-attachments/assets/29227eff-7402-4a38-976b-c91f48c3d7a5
+
 ## If you face any of the following errors , you need to change machine !
 
 ![Image](https://github.com/user-attachments/assets/7280f26e-89c4-48eb-8fb3-c0575c6fc0d3)
