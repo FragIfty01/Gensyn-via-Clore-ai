@@ -102,7 +102,8 @@ cd rl-swarm/
 
 ```bash
 sed -e 's/2.20.0/2.25.0/g' modal-login/package.json
-
+```
+```bash
 sed -i -e 's/2.20.0/2.25.0/g' modal-login/package.json
 ```
 
