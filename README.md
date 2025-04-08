@@ -1,1 +1,1 @@
-# Gensyn-via-Clore-ai
+# Gensyn X Clore Ai
