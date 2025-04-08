@@ -1,12 +1,10 @@
-# Gensyn X Clore Ai
-
-Requirements :
-- 3090 ,4090 .
-
-Recommened Config :
-- 32Gb Ram
-- Download/Upload Speed > 100 Mbps
-- Exclude russian servers 
+<h2 align="center">🚀 Gensyn x Clore AI - Testnet Node Setup Guide</h2>
+🖥️ System Requirements
+Requirement	Recommended Specs
+GPU	NVIDIA RTX 3090 / 4090
+RAM	32 GB
+Internet Speed	Download / Upload > 100 Mbps
+Server Region	Avoid Russian servers for best performance
 
 
 Signup : https://clore.ai?ref_id=1pgsgg8q
