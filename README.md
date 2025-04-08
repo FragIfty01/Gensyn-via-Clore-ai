@@ -1,4 +1,4 @@
-<h2 align="center">🚀 Gensyn x Clore AI - Testnet Node Setup Guide</h2>
+<h2 align="center">🚀 Gensyn x Clore AI - Swarm Setup Guide</h2>
 
 ---
 
