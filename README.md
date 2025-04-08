@@ -128,7 +128,7 @@ source .venv/bin/activate
 
 ![Image](https://github.com/user-attachments/assets/7280f26e-89c4-48eb-8fb3-c0575c6fc0d3)
 
-![Image](https://github.com/user-attachments/assets/d5f00798-324a-4fc2-b442-94f2a1f58f6c)
+![Image](https://github.com/user-attachments/assets/73f6b49a-47f8-4164-ae50-7bbb197a82fb)
 
 
 ## Good luck in swarm ❤️
