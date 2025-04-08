@@ -124,4 +124,13 @@ source .venv/bin/activate
 ./run_rl_swarm.sh
 ```
 
+## If you face any of the following errors , you need to change machine !
+
+![Image](https://github.com/user-attachments/assets/7280f26e-89c4-48eb-8fb3-c0575c6fc0d3)
+
+![Image](https://github.com/user-attachments/assets/d5f00798-324a-4fc2-b442-94f2a1f58f6c)
+
+
+## Good luck in swarm ❤️
+
 
