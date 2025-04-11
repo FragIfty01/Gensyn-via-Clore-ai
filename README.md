@@ -122,6 +122,11 @@ Next just run
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
+```bash
+pip install colorlog
+```
+```bash
 ./run_rl_swarm.sh
 ```
 
