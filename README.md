@@ -141,12 +141,20 @@ https://github.com/user-attachments/assets/29227eff-7402-4a38-976b-c91f48c3d7a5
 
 
 
-## If you face any of the following errors , you need to change machine !
-
-![Image](https://github.com/user-attachments/assets/7280f26e-89c4-48eb-8fb3-c0575c6fc0d3)
+## Error Handling 
 
 ![Image](https://github.com/user-attachments/assets/73f6b49a-47f8-4164-ae50-7bbb197a82fb)
 
+If you face this error , **CTRL + C** and run : 
+
+```bash
+sed -i -E 's/(startup_timeout: *float *= *)[0-9.]+/\1120/' $(python3 -c "import hivemind.p2p.p2p_daemon as m; print(m.__file__)")
+```
+
+Rerun
+```bash
+./run_rl_swarm.sh
+```
 
 ## Good luck in swarm ❤️
 
