@@ -166,7 +166,7 @@ sed -i '/\[ -z "\$PS1" \] && return/i : "${PS1:=}"' /root/.bashrc
 
 ## line 101 : open : command not found
 
-![Image](https://github.com/user-attachments/assets/bda6eb1e-c2da-4f75-9fde-af753201b1b9)
+![Image](https://github.com/user-attachments/assets/26394b1f-7f05-4bf2-870c-a530a4318706)
 
 ```bash
 sed -i '101s|^|# |' run_rl_swarm.sh
