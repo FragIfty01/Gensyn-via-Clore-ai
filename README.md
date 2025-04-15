@@ -153,8 +153,9 @@ sed -i -E 's/(startup_timeout: *float *= *)[0-9.]+/\1120/' $(python3 -c "import 
 
 Rerun
 ```bash
+./run_rl_swarm.sh
 ```
-```
+
 
 ## PS1 unbound variable
 ![Image](https://github.com/user-attachments/assets/9db8a84d-cc60-4b52-bedd-f8e392d2caab)
