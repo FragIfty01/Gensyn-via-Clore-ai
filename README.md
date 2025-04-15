@@ -172,7 +172,7 @@ sed -i '/\[ -z "\$PS1" \] && return/i : "${PS1:=}"' /root/.bashrc
 sed -i '101s|^|# |' run_rl_swarm.sh
 ```
 
-Rerun ** ./run_rl_swarm.sh **
+Rerun **./run_rl_swarm.sh**
 
 
 
