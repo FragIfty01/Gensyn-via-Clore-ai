@@ -153,8 +153,27 @@ sed -i -E 's/(startup_timeout: *float *= *)[0-9.]+/\1120/' $(python3 -c "import 
 
 Rerun
 ```bash
-./run_rl_swarm.sh
 ```
+```
+
+## PS1 unbound variable
+![Image](https://github.com/user-attachments/assets/9db8a84d-cc60-4b52-bedd-f8e392d2caab)
+
+```bash
+sed -i '/\[ -z "\$PS1" \] && return/i : "${PS1:=}"' /root/.bashrc
+```
+
+## line 101 : open : command not found
+
+![Image](https://github.com/user-attachments/assets/bda6eb1e-c2da-4f75-9fde-af753201b1b9)
+
+```bash
+sed -i '101s|^|# |' run_rl_swarm.sh
+```
+
+Rerun ** ./run_rl_swarm.sh **
+
+
 
 ## Good luck in swarm ❤️
 
