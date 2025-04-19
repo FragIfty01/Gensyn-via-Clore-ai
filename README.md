@@ -7,7 +7,7 @@
 | Requirement             | Recommended Specs                           |
 |-------------------------|---------------------------------------------|
 | **GPU**                 | NVIDIA RTX 3090 / 4090                      |
-| **RAM**                 | 32 GB                                       |
+| **RAM**                 | 25 GB                                       |
 | **Internet Speed**      | Download / Upload > 100 Mbps                |
 | **Server Region**       | Avoid Russian servers  |
 
@@ -100,13 +100,6 @@ Go to directory
 cd rl-swarm/
 ```
 
-```bash
-sed -e 's/2.20.0/2.25.0/g' modal-login/package.json
-```
-```bash
-sed -i -e 's/2.20.0/2.25.0/g' modal-login/package.json
-```
-
 
 ## ⚠️Important⚠️
 
@@ -122,9 +115,6 @@ Next just run
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-```
-```bash
-pip install colorlog
 ```
 ```bash
 ./run_rl_swarm.sh
