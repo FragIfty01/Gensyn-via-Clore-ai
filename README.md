@@ -154,7 +154,7 @@ Rerun
 sed -i '/\[ -z "\$PS1" \] && return/i : "${PS1:=}"' /root/.bashrc
 ```
 
-## line 101 : open : command not found
+## line 101 / 121 : open : command not found
 
 ![Image](https://github.com/user-attachments/assets/26394b1f-7f05-4bf2-870c-a530a4318706)
 
@@ -162,7 +162,19 @@ sed -i '/\[ -z "\$PS1" \] && return/i : "${PS1:=}"' /root/.bashrc
 sed -i '101s|^|# |' run_rl_swarm.sh
 ```
 
-Rerun **./run_rl_swarm.sh**
+![Image](https://github.com/user-attachments/assets/0342658f-c408-4b3d-9f2c-dd4c45b71905)|
+
+```bash
+sed -i '121s|^|# |' run_rl_swarm.sh
+```
+Just comment out the line 
+
+Rerun 
+
+
+```bash
+./run_rl_swarm.sh
+```
 
 
 
