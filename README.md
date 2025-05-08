@@ -84,7 +84,8 @@ yarn -v
 ```
 
 ```bash
-apt install -y python3.12-venv
+apt install -y python3.12-venv python3.12-dev
+
 ```
 
 clone repo
