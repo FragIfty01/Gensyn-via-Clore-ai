@@ -61,10 +61,17 @@ https://github.com/user-attachments/assets/3969c1aa-65f6-443a-b088-004afa08448e
 ## 📥 Installation
 
 ```bash
-apt update && apt install -y telnet && telnet 38.101.215.13 30111
+ apt-get update &&  apt-get upgrade -y
+```
+```bash
+apt-get install -y nvidia-cuda-toolkit
 ```
 
-If it connects and then disconnectes , means we are good to go
+Install Dependencies
+
+```bash
+ apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+```
 
 ```bash
 apt install curl -y
