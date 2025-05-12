@@ -164,6 +164,11 @@ sed -i '/return\s*(<main class=/i\
     }\n\
   }, [user, signerStatus.isInitializing]);\n' modal-login/app/page.tsx
 ```
+Rerun
+
+```bash
+./run_rl_swarm.sh
+```
 
 ## PS1 unbound variable
 ![Image](https://github.com/user-attachments/assets/9db8a84d-cc60-4b52-bedd-f8e392d2caab)
