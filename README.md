@@ -172,9 +172,11 @@ Just above that return line, paste the following code (make sure there is one li
 
 ![Image](https://github.com/user-attachments/assets/e2a15569-0cc3-4649-9fbb-c84b1cc1c4bd)
 
-> Ctrl X + Y
+Save it by pressing: 
 
-> Enter
+- Ctrl X + Y
+
+- Enter
 
 
 Rerun
