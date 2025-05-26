@@ -157,13 +157,25 @@ Rerun
 Stop process with Ctrl + C
 
 ```bash
-sed -i '/return\s*(<main class=/i\
-  useEffect(() => {\n\
-    if (!user && !signerStatus.isInitializing) {\n\
-      openAuthModal();\n\
-    }\n\
-  }, [user, signerStatus.isInitializing]);\n' modal-login/app/page.tsx
+nano modal-login/app/page.tsx
 ```
+Just above that return line, paste the following code (make sure there is one line of space between the pasted code and the return line, and that the indentation matches):,
+
+```bash
+   useEffect(() => {
+     if (!user && !signerStatus.isInitializing) {
+       openAuthModal(); 
+     }
+   }, [user, signerStatus.isInitializing]);
+
+```
+
+![Image](https://github.com/user-attachments/assets/e2a15569-0cc3-4649-9fbb-c84b1cc1c4bd)
+
+Ctrl X + Y
+Enter
+
+
 Rerun
 
 ```bash
