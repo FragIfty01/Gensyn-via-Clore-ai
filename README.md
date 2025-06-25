@@ -140,6 +140,14 @@ https://github.com/user-attachments/assets/29227eff-7402-4a38-976b-c91f48c3d7a5
 
 ## Error Handling 
 
+[ ./run_rl_swarm.sh: line 160: sudo: command not found ]
+
+```bash
+sed -i 's/sudo //g' run_rl_swarm.sh
+```
+
+rerun 
+
 ![Image](https://github.com/user-attachments/assets/73f6b49a-47f8-4164-ae50-7bbb197a82fb)
 
 If you face this error , **CTRL + C** and run : 
