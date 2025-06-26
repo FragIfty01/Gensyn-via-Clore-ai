@@ -85,6 +85,7 @@ yarn -v
 curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
 
+# Install YARN 
 ```
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 ```
@@ -92,6 +93,7 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 ```
 source ~/.bashrc
 ```
+# Python Dev
 
 ```bash
 apt install -y python3.12-venv python3.12-dev
