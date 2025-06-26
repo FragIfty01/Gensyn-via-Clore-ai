@@ -74,13 +74,23 @@ Install Dependencies
 ```
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-\. "$HOME/.nvm/nvm.sh"
-nvm install 22
+apt update
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+apt install -y nodejs
 node -v
-nvm current
-corepack enable yarn
+npm install -g yarn
 yarn -v
+```
+```bash
+curl -o- -L https://yarnpkg.com/install.sh | bash
+```
+
+```
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+```
+
+```
+source ~/.bashrc
 ```
 
 ```bash
