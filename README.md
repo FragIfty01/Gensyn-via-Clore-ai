@@ -58,16 +58,86 @@ Video
 
 https://github.com/user-attachments/assets/3969c1aa-65f6-443a-b088-004afa08448e
 
-🚀 Quick Start (One-Click Install)
+## Installation
 
-Just run the following commands on your Ubuntu machine:
+ ```bash
+ apt-get update &&  apt-get upgrade -y
+ ```
 
-```bash
-git clone https://github.com/FragIfty01/Gensyn-via-Clore-ai.git
-cd Gensyn-via-Clore-ai
-chmod +x install.sh        
-./install.sh
-```
+ ```bash
+apt-get install -y nvidia-cuda-toolkit
+ ```
+
+Install Dependencies
+
+ ```bash
+ apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+ ```
+
+ ```bash
+apt update
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+apt install -y nodejs
+node -v
+npm install -g yarn
+yarn -v
+ ```
+
+## Install YARN 
+
+ ```bash
+curl -o- -L https://yarnpkg.com/install.sh | bash
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+source ~/.bashrc
+ ```
+
+## Python Dev
+
+ ```bash
+apt install -y python3.12-venv python3.12-dev
+ ```
+
+clone repo
+
+ ```bash
+git clone https://github.com/gensyn-ai/rl-swarm.git
+ ```
+
+Open gensyn screen
+
+ ```bash
+
+ creen -S gensyn
+ ```
+
+
+Go to directory
+
+ ```bash
+cd rl-swarm/
+ ```
+
+
+
+## ⚠️Important⚠️
+
+If this your first time then just simply run next next commands. If you are switching from another machine. Save your swarm.pem file and export this in the directory.
+
+In the screenshot , you just drag the swarm.pem file to rl-swarm directory
+
+![Image](https://github.com/user-attachments/assets/d0df6731-c273-4ebd-996a-189a75867beb)
+
+
+Next just run
+
+ ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+ ```
+
+ ```bash
+./run_rl_swarm.sh
+ ```
 
 Go back to your order and click the http link. Cut extra characters after /.  Check video 👇
 
