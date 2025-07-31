@@ -63,9 +63,10 @@ https://github.com/user-attachments/assets/3969c1aa-65f6-443a-b088-004afa08448e
 Just run the following commands on your Ubuntu machine:
 
 ```bash
-wget https://your-server.com/setup.sh -O setup.sh
-chmod +x setup.sh
-./setup.sh
+git clone https://github.com/gensyn-ai/rl-swarm.git
+cd rl-swarm
+chmod +x install.sh        
+./install.sh
 ```
 
 Go back to your order and click the http link. Cut extra characters after /.  Check video 👇
