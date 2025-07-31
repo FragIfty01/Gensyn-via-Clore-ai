@@ -64,7 +64,7 @@ Just run the following commands on your Ubuntu machine:
 
 ```bash
 git clone https://github.com/FragIfty01/Gensyn-via-Clore-ai.git
-cd rl-swarm
+cd Gensyn-via-Clore-ai
 chmod +x install.sh        
 ./install.sh
 ```
