@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Updating system and installing dependencies..."
+echo "🔄 Updating system and installing dependencies..."
 
 sudo apt-get update && sudo apt-get upgrade -y
 
@@ -20,23 +20,16 @@ node -v
 sudo npm install -g yarn
 yarn -v
 
-# Install yarn (alternative method)
+# Install yarn (alternative method, in case the above fails)
 curl -o- -L https://yarnpkg.com/install.sh | bash
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 # Python dev
 sudo apt install -y python3.12-venv python3.12-dev
 
-# Clone repo if not exists
-if [ ! -d "rl-swarm" ]; then
-  git clone https://github.com/gensyn-ai/rl-swarm.git
-fi
-
-cd rl-swarm
-
 # Check for swarm.pem
 if [ ! -f "swarm.pem" ]; then
-  echo -e "\n\033[1;31m⚠️  Please place your swarm.pem file in the rl-swarm directory before continuing! \033[0m"
+  echo -e "\n\033[1;33m⚠️  Please copy your swarm.pem file into the rl-swarm directory before continuing! \033[0m"
   echo "After copying swarm.pem here, rerun this script."
   exit 1
 fi
