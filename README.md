@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/3969c1aa-65f6-443a-b088-004afa08448e
 Just run the following commands on your Ubuntu machine:
 
 ```bash
-git clone https://github.com/gensyn-ai/rl-swarm.git
+git clone https://github.com/FragIfty01/Gensyn-via-Clore-ai.git
 cd rl-swarm
 chmod +x install.sh        
 ./install.sh
